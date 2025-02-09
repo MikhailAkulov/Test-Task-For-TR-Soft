@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Contact Profile</title>
+    </head>
+
+    <body>
+        <h1>Пользователь: <span th:text="${contact.lastName}"></span></h1>
+        <p>Имя: <span th:text="${contact.firstName}"></span></p>
+        <p>Отчество: <span th:text="${contact.middleName}"></span></p>
+        <p>Дата рождения: <span th:text="${contact.birthdayDate}"></span></p>
+        <p>Номер телефона: <span th:text="${contact.phoneNumber}"></span></p>
+        <p>E-mail: <span th:text="${contact.email}"></span></p>
+        <p>ID: <span th:text="${contact.id}"></span></p>
+    </body>
+</html>
