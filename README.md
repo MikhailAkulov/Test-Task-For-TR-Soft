@@ -10,6 +10,7 @@
 * [ContactService](https://github.com/MikhailAkulov/Test-Task-For-TR-Soft/blob/main/src/main/java/telros/test_task/service/ContactService.java)
   и [ContactController](https://github.com/MikhailAkulov/Test-Task-For-TR-Soft/blob/main/src/main/java/telros/test_task/api/ContactController.java), реализующие требуемый функционал CRUD;
 * Авторизация, собственно настроена на странички [UIController'a](https://github.com/MikhailAkulov/Test-Task-For-TR-Soft/blob/main/src/main/java/telros/test_task/api/UIController.java)
+  
   http://localhost:8080/ui - домашняя,
 
   http://localhost:8080/ui/contact - страничка с таблицей данных всех пользователей,
